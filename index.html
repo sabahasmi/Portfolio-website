@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+  <header class="container">
+    <div class="nav">
+      <div class="brand">
+        <div class="logo">MD</div>
+        <div>
+          <div class="name">Md Saba Hasmi</div>
+          <div class="role">Java Full-Stack Developer</div>
+        </div>
+      </div>
+      <nav>
+        <button class="menu-btn" id="menuBtn">☰</button>
+        <ul id="navList">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="#">Hire Me</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h1>Hi,I'm <span class="accent">Md Saba Hasmi</span></h1>
+        <section id="projects">
+          <h2>Projects</h2>
+          <div class="projects-grid">
+            <div class="project">
+              <h3>1.Flipkart Reviews Sentiment Analysis Using Python, June 2025 - September 2025</h3>
+              <p class="muted">Developed an ML pipeline to classify Flipkart reviews using NLP preprocessing, model evaluation, and Flask API deployment for actionable sentiment insights.</p>
+            </div>
+            <div class="project">
+              <h3>2.Sentimental analysis for youtube, February 2025 - May 2025</h3>
+              <p class="muted">Performed sentiment analysis on YouTube comments using NLP and ML models, achieving highest accuracy (81%) with Random Forest and validating results with VADER.</p>
+            </div>
+            <div class="project">
+              <h3>3.Neural Network Wardrobe Consultant based on ResNet50, June 2024 - December 2024</h3>
+              <p class="muted">A fashion recommendation system using ResNet50 to analyze clothing images and suggest outfits based on style, weather, and user preferences.</p>
+            </div>
+            <div class="project">
+              <h3>4.Social Media App Using Mern Stack, February 2024 - June 2024</h3>
+              <p class="muted">Building facebook like Social Media.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <aside class="profile-card card">
+        <div class="avatar">MD</div>
+        <h3>Md Saba Hasmi</h3>
+        <p class="muted">Java Fullstack Developer</p>
+      </aside>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <div class="card">
+        <p class="muted">I am a Java Full-Stack Developer with a strong background in building scalable web applications using Java, Spring Boot, and modern front-end technologies. I am passionate about creating clean, efficient code and developing user-friendly interfaces. With solid skills in backend development, REST APIs, databases, and frontend frameworks like React or Angular, I enjoy solving complex problems and delivering end-to-end solutions.</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="card">
+        <p class="muted">java,Mern Stack,DSA,Front End,Web Development,Python,Data Analytics,DBMS,JDBC ,JUnit,Multithreading,Numpy,Pandas,MATLAB,Tensorflow,Seaborn,Flutter,Cloud Computing,DevOps,Docker,Kubernete,sMySQL
+        </p>
+      </div>
+    </section>
+    <section id="Intern">
+      <h2>Internship</h2>
+      <div class="card">
+        <p class="muted">1.Internship at inlighntech as a Data scientist Trainee from june 2025 to sept 2025.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="card">
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Pleace enter your name" required />
+          <input type="email" id="email" placeholder="Please enter your email" required />
+          <textarea id="message" placeholder="Whitch Developer you are" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p class="muted">© <span id="year"></span>Md Saba Hasmi</p>
+    </footer>
+  </main>
+<script src="index.js"></script>
+</body>
+</html>
